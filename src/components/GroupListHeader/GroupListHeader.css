@@ -1,0 +1,32 @@
+.group-list-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.container-left {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: 200px;
+}
+
+.header-title {
+    font-size: 12px;
+    font-weight: 400;
+    color: 000
+}
+
+.header-count {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9c9da1
+}
+
+.container-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+}

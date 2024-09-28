@@ -1,0 +1,26 @@
+.profile-icon {
+    padding: 5px;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile-icon-text {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.status {
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

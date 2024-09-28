@@ -1,0 +1,20 @@
+.display-sheet {
+    padding: 16px 12px 10px 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.options-row {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px
+}
+
+.options-title {
+    color: #a2a2a4;
+    font-size: 12px;
+    font-weight: 400;
+}

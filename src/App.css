@@ -1,0 +1,110 @@
+.header {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.display-box {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #c5c5c5;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: relative;
+}
+
+.display-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+.display-sheet {
+    position: absolute;
+    bottom: -5vh;
+    left: 0px;
+}
+
+.groups-container {
+    display: flex;
+    background-color: #f4f5f9;
+    height: '100%';
+    gap: 16px;
+    padding: 32px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+@media (max-width: 743px) {
+    .groups-container {
+        justify-content: center; 
+    }
+}
+
+.loader-full-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-full-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-text {
+    color: #e62e00;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/**
+* For loader, took refernce from CodeSandBox
+*/
+.loader {
+    width: 68px;
+    aspect-ratio: 1; 
+    display: grid;
+    border: 4px solid transparent; 
+    border-radius: 50%;
+    border-color: #ccc transparent;
+    animation: l16 1s infinite linear;
+}
+
+.loader:before {
+    content: "";
+    grid-area: 1 / 1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+    border-color: #008Eff transparent; 
+    animation: inherit;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+}
+
+.loader:after {
+    content: "";
+    grid-area: 1 / 1;
+    margin: 8px;
+    border: inherit;
+    border-radius: 50%;
+}
+
+@keyframes l16 {
+    100% {
+        transform: rotate(1turn);
+    }
+}

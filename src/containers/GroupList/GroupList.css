@@ -1,0 +1,10 @@
+.group-list-header {
+    
+}
+
+.group-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+}
