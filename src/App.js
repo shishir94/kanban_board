@@ -141,9 +141,9 @@ function App() {
     <div className="App">
       <div className="header">
         <div className='display-box'>
-          <img src={DisplayIcon}/>
+          <img src={DisplayIcon} alt="displayicon"/>
           <div className='display-text'>Display</div>
-          <img src={DownIcon} onClick={toggleDisplayShow}/>
+          <img src={DownIcon} alt="downicon" onClick={toggleDisplayShow}/>
           {
             showDisplayContainer &&
             <div className='display-sheet'>

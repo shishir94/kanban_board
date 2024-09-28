@@ -27,7 +27,7 @@ function GroupListHeader({
                         status={status}
                     />
                     :
-                    <img src={icon}/>
+                    <img src={icon} alt="icon"/>
                 }
                 <div className='header-title'>
                     {groupingMethod ===  GROUPING_METHODS.USER 
@@ -41,8 +41,8 @@ function GroupListHeader({
                 
             </div>
             <div className='container-right'>
-                <img src={dotMenuIcon}/>
-                <img src={plusIcon}/>
+                <img src={dotMenuIcon} alt="dot_menu_icon"/>
+                <img src={plusIcon} alt="plusicon"/>
             </div>
         </div>
     )

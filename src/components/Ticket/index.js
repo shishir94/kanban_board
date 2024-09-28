@@ -39,6 +39,7 @@ function Ticket({
                     <img 
                         src={PRIORITY_IMAGES[ticketData.priority || 0]}
                         className='priority-icon'
+                        alt="priority_icon"
                     />
                     {
                         ticketData?.tag?.map((tag) => {
